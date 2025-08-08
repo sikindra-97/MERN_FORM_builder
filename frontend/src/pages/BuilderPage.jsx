@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import axios from 'axios'
 import QuestionList from '../components/Builder/QuestionList'
 
-const API = import.meta.env.VITE_API_BASE || 'http://localhost:5000/api'
+const API = import.meta.env.VITE_API_BASE || 'https://mern-form-builder-px3r.onrender.com/'
 
 export default function BuilderPage() {
   const [title, setTitle] = useState('My Form')
