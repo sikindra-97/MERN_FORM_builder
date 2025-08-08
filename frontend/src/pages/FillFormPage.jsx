@@ -4,7 +4,7 @@ import CategorizeRenderer from '../components/Renderer/CategorizeRenderer'
 import ClozeRenderer from '../components/Renderer/ClozeRenderer'
 import ComprehensionRenderer from '../components/Renderer/ComprehensionRenderer'
 
-const API = import.meta.env.VITE_API_BASE || 'http://localhost:5000/api'
+const API = import.meta.env.VITE_API_BASE || 'https://mern-form-builder-px3r.onrender.com/'
 
 export default function FillFormPage(){
   const [forms, setForms] = useState([])
